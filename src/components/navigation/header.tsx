@@ -29,7 +29,7 @@ export function Header() {
           </ul>
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden items-center gap-5 md:flex">
           <a
             className="shrink-0 py-2 text-[13px] font-medium text-[var(--foreground-secondary)] transition-colors duration-200 hover:text-[var(--foreground)]"
             href={siteConfig.githubUrl}
@@ -37,6 +37,15 @@ export function Header() {
             rel="noreferrer"
           >
             GitHub <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            className="shrink-0 rounded-md border border-[var(--border-subtle)] px-3 py-2 text-[13px] font-medium text-[var(--foreground)] transition-colors duration-200 hover:border-[var(--foreground-secondary)]"
+            href={siteConfig.cvUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View CV <span aria-hidden="true">↗</span>
           </a>
         </div>
 
