@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { StructuredData } from "@/components/seo/structured-data";
 
 import "./globals.css";
 
@@ -48,6 +49,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <StructuredData />
+      </head>
       <body className={geist.variable}>{children}</body>
     </html>
   );
