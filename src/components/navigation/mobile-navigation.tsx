@@ -103,6 +103,18 @@ export function MobileNavigation() {
                 GitHub <span aria-hidden="true">↗</span>
               </a>
             </li>
+
+            <li>
+              <a
+                className="block py-3 text-sm font-medium text-[var(--foreground)] transition-colors duration-200 hover:text-[var(--foreground-secondary)]"
+                href={siteConfig.cvUrl}
+                target="_blank"
+                rel="noreferrer"
+                onClick={handleNavigation}
+              >
+                View CV <span aria-hidden="true">↗</span>
+              </a>
+            </li>
           </ul>
         </nav>
       )}

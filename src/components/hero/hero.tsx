@@ -30,12 +30,18 @@ export function Hero() {
               </a>
 
               <a
-                className="inline-flex py-2 text-sm font-medium text-[var(--foreground-secondary)] transition-colors duration-200 hover:text-[var(--foreground)]"
-                href={siteConfig.githubUrl}
+                className="group inline-flex items-center gap-1.5 py-2 text-sm font-medium text-[var(--foreground)] transition-colors duration-200 hover:text-[var(--foreground-secondary)]"
+                href={siteConfig.cvUrl}
                 target="_blank"
                 rel="noreferrer"
               >
-                GitHub <span aria-hidden="true">↗</span>
+                View CV
+                <span
+                  aria-hidden="true"
+                  className="inline-block transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                >
+                  ↗
+                </span>
               </a>
             </div>
           </div>
