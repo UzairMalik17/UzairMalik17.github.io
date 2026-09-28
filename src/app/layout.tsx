@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "Uzair Malik — Software Engineer",
   description:
     "Portfolio of Uzair Malik, a software engineer building reliable web applications and AI-enhanced software.",
+  verification: {
+    google: "6-QHWufKxJQBBOozsIjVKh3uILAiLO6F3akqod34Amk",
+  },
   alternates: {
     canonical: "/",
   },
